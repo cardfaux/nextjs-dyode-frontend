@@ -1,26 +1,25 @@
-
-import styles from '../styles/Collections.module.scss'
+import styles from '../styles/Collections.module.scss';
 
 const Collections = () => {
   return (
     <section className={styles.collections}>
       <div className={styles.womens}>
         <div className={styles.text}>
-        <p>women's</p>
+          <p>women&#39;s</p>
         </div>
       </div>
       <div className={styles.mens}>
         <div className={styles.text}>
-        <p>men's</p>
+          <p>men&#39;s</p>
         </div>
       </div>
       <div className={styles.accessories}>
         <div className={styles.text}>
-        <p>accessories</p>
+          <p>accessories</p>
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default Collections;
