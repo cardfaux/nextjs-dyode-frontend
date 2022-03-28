@@ -5,6 +5,7 @@ import HamburgerIcon from '../SVG/Hamburger.jsx';
 import SearchIcon from '../SVG/Search.jsx';
 import UserIcon from '../SVG/User.jsx';
 import CartIcon from '../SVG/Cart.jsx';
+import { headerLinks } from '../../store/headerLinks';
 import styles from '../../styles/Header.module.scss';
 
 const Header = () => {
@@ -14,6 +15,17 @@ const Header = () => {
         <HamburgerIcon />
         <Image src={Logo} alt='change this' width={56} height={46} />
       </div>
+      <div className={styles.links}>
+        <ul>
+          {headerLinks.map((link) => {
+            return (
+              <li key={link.id.toString()}>
+                <a href={link.link}>{link.title}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       <div className={styles.iconscontainer}>
         <SearchIcon />
         <UserIcon />
@@ -21,6 +33,6 @@ const Header = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Header;

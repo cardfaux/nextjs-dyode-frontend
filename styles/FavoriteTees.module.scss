@@ -1,8 +1,5 @@
 .favorite {
   position: relative;
-    background-image: url('../public/FavoriteTees.png');
-    height: 227px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  max-height: 638px;
+  overflow: hidden;
 }

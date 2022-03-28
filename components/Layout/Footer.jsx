@@ -9,83 +9,57 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div>
         <div className={styles.container}>
-          <span className={styles.heading}>
-            customer service
-          </span>
-          <span>&#43;</span>
+          <span className={styles.heading}>customer service</span>
+          <span className={styles.plus}>&#43;</span>
         </div>
         <div>
           <ul>
             <li>
-              <a>
-                Accessability
-              </a>
+              <a>Accessability</a>
             </li>
             <li>
-              <a>
-                contact us
-              </a>
+              <a>contact us</a>
             </li>
             <li>
-              <a>
-                return policy
-              </a>
+              <a>return policy</a>
             </li>
             <li>
-              <a>
-                FAQ
-              </a>
+              <a>FAQ</a>
             </li>
             <li>
-              <a>
-                gift certificates
-              </a>
+              <a>gift certificates</a>
             </li>
             <li>
-              <a>
-                Wishlist
-              </a>
+              <a>Wishlist</a>
             </li>
           </ul>
         </div>
       </div>
       <div>
         <div className={styles.container}>
-          <span className={styles.heading}>
-            company
-          </span>
-          <span>&#43;</span>
+          <span className={styles.heading}>company</span>
+          <span className={styles.plus}>&#43;</span>
         </div>
         <div className={styles.hide}>
           <ul>
             <li>
-              <a>
-                about us
-              </a>
+              <a>about us</a>
             </li>
             <li>
-              <a>
-                careers
-              </a>
+              <a>careers</a>
             </li>
             <li>
-              <a>
-                press
-              </a>
+              <a>press</a>
             </li>
             <li>
-              <a>
-                affiliates
-              </a>
+              <a>affiliates</a>
             </li>
           </ul>
         </div>
       </div>
-      <div>
+      <div className={styles.end}>
         <div className={styles.container}>
-          <span className={styles.heading}>
-            follow us
-          </span>
+          <span className={styles.heading}>follow us</span>
           {/* <span>&#43;</span> */}
         </div>
         <div>
@@ -102,7 +76,7 @@ const Footer = () => {
             </li>
             <li>
               <a>
-               <TwitterIcon />
+                <TwitterIcon />
               </a>
             </li>
           </ul>
@@ -110,6 +84,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

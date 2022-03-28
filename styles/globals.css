@@ -16,22 +16,47 @@ a {
 }
 
 .swiper-pagination-bullet {
-    background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
 }
 
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
   right: -4px !important;
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
   left: -4px !important;
 }
 
-.swiper-button-next, .swiper-button-prev {
-  top: 28% !important;
-}
-
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
   font-size: 25px !important;
   color: black !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 191px !important;
+}
+
+@media (min-width: 980px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 10px !important;
+  }
+  .Hero_hero__ANozN .swiper {
+    max-height: 638px;
+  }
+  .Hero_hero__ANozN img {
+    object-fit: fill;
+  }
 }

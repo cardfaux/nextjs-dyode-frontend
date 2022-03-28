@@ -9,12 +9,21 @@ const SignUp = () => {
         <SignUpIcon />
         <h4>sign up &amp; stay connected</h4>
       </div>
-      <p>Sign up for the newsletter and get 20% off! Gain access to exclusive offers and be the first to know when new stuff drops!</p>
-      <button>
-        <span>subscribe</span>
-      </button>
+      <p>
+        Sign up for the newsletter and get 20% off! Gain access to exclusive
+        offers and be the first to know when new stuff drops!
+      </p>
+      <form action='/action_page.php'>
+        <input
+          type='email'
+          id='email'
+          name='email'
+          placeholder='Enter Your Email Address'
+        />
+        <input type='submit' />
+      </form>
     </section>
   );
-}
+};
 
 export default SignUp;

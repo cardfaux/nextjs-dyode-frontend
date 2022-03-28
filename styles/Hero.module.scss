@@ -1,4 +1,6 @@
 .hero {
-  max-height: 638px;
-  overflow: hidden;
+  @media (min-width: 980px) {
+    max-height: 638px;
+    overflow: hidden;
+  }
 }
