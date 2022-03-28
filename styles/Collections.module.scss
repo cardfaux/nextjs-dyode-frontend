@@ -1,6 +1,6 @@
 .collections {
   display: grid;
-  grid-template-columns: 163px 163px;
+  grid-template-columns: 50% 50%;
   justify-content: center;
   gap: 10px;
   padding: 20px;
@@ -13,14 +13,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (min-width: 980px) {
+      height: 435px;
+    }
+
     p {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
       margin: 0;
       background-color: rgba(16, 80, 79, 1);
       color: #FFFFFF;
       text-align : center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
     }
   }
 
@@ -32,14 +40,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (min-width: 980px) {
+      height: 435px;
+    }
+
     p {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
       margin: 0;
       background-color: rgba(16, 80, 79, 1);
       color: #FFFFFF;
       text-align : center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
     }
   }
 
@@ -52,14 +68,37 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (min-width: 980px) {
+      grid-column: auto;
+      height: 435px;
+    }
+
     p {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
       margin: 0;
       background-color: rgba(16, 80, 79, 1);
       color: #FFFFFF;
       text-align : center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
     }
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #10504f;
+    padding: 20px;
+  }
+
+  @media (min-width: 980px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1440px;
+    margin: auto;
   }
 }

@@ -21,6 +21,16 @@ const Product = () => {
       spaceBetween={0}
       slidesPerView={2}
       loop={true}
+      breakpoints={{
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        980: {
+          slidesPerView: 4,
+          spaceBetween: 0,
+        }
+      }}
       pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}

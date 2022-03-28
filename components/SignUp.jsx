@@ -11,7 +11,7 @@ const SignUp = () => {
       </div>
       <p>Sign up for the newsletter and get 20% off! Gain access to exclusive offers and be the first to know when new stuff drops!</p>
       <button>
-        subscribe
+        <span>subscribe</span>
       </button>
     </section>
   );

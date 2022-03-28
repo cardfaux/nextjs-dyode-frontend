@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div>
-        <div>
-          <span>
+        <div className={styles.container}>
+          <span className={styles.heading}>
             customer service
           </span>
           <span>&#43;</span>
@@ -50,13 +50,13 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <div>
-          <span>
+        <div className={styles.container}>
+          <span className={styles.heading}>
             company
           </span>
           <span>&#43;</span>
         </div>
-        <div>
+        <div className={styles.hide}>
           <ul>
             <li>
               <a>
@@ -82,14 +82,14 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <div>
-          <span>
+        <div className={styles.container}>
+          <span className={styles.heading}>
             follow us
           </span>
-          <span>&#43;</span>
+          {/* <span>&#43;</span> */}
         </div>
         <div>
-          <ul>
+          <ul className={styles.social}>
             <li>
               <a>
                 <FacebookIcon />

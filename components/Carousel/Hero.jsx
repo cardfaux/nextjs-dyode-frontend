@@ -13,12 +13,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import styles from '../../styles/Carousel.module.scss';
+import styles from '../../styles/Hero.module.scss';
 
 const Hero = () => {
   return (
     <>
-    <section className={styles.carousel}>
+    <section className={styles.hero}>
       <Swiper
       pagination={true}
       modules={[Pagination]}
@@ -41,7 +41,7 @@ const Hero = () => {
       </SwiperSlide>
     </Swiper>
     </section>
-    <ShopNow title='shop new arrivals' subTitle='our coolest new items are waiting for you!' buttonText='shop now' />
+    <ShopNow title='Shop new arrivals' subTitle='Our coolest new items are waiting for you!' buttonText='shop now' />
     </>
   );
 }

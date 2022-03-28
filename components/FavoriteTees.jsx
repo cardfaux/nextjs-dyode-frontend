@@ -8,7 +8,7 @@ const FavoriteTees = () => {
     <section className={styles.favorite}>
       
     </section>
-    <ShopNow title='our favorite tees' subTitle='everyday tees you need' buttonText='shop now' />
+    <ShopNow title='our favorite tees' subTitle='Everyday tees you need' buttonText='shop now' />
     </>
   );
 }

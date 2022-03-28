@@ -1,9 +1,11 @@
 import Product from './Carousel/Product';
 
+import styles from '../styles/ShopNew.module.scss';
+
 const ShopNew = () => {
   return (
-    <section>
-      <h3>new arrivals</h3>
+    <section className={styles.shopnew}>
+      <h3>shop new arrivals</h3>
       <Product />
     </section>
   );
