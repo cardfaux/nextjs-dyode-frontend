@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  // padding: 0 2rem;
 }
 
 .main {
@@ -19,13 +19,14 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
 
-.footer a {
-  display: flex;
+  a {
+  display: grid;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  background-color: red;
+  }
 }
 
 .title a {
